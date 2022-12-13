@@ -49,11 +49,6 @@ PRODUCT_PACKAGES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    hardware/qcom-caf/bootctrl 
-
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
