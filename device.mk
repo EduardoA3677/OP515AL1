@@ -2,8 +2,6 @@
 # Copyright (C) 2020 The Android Open Source Project
 # Copyright (C) 2020 The TWRP Open Source Project
 # Copyright (C) 2020 SebaUbuntu's TWRP device tree generator
-# Copyright (C) 2019-Present A-Team Digital Solutions
-#
 
 LOCAL_PATH := device/oneplus/OP515AL1
 
@@ -57,11 +55,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
-
-# Crypto
-#PRODUCT_PACKAGES += \
-#    qcom_decrypt \
-#    qcom_decrypt_fbe
 
 # Copy modules for depmod
 PRODUCT_COPY_FILES += \
